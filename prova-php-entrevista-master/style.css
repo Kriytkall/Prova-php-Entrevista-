@@ -109,6 +109,7 @@ input[type="checkbox"]:checked {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .item-id {
@@ -120,7 +121,7 @@ input[type="checkbox"]:checked {
 
 .item-nome {
     flex: 2;
-    border-right: solid 1.8px rgba(0, 0, 0, 0.1); 
+    border-right: solid 1.8px rgba(0, 0, 0, 0.1);
 }
 
 .item-email {
